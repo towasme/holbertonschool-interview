@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "sort.h"
 
-
 /**
  * merge_sort - use merge sort in place on an array of integers
  * @array: array to sort
