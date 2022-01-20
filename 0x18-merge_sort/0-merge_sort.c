@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include "sort.h"
 
+
 /**
  * merge_sort - use merge sort in place on an array of integers
  * @array: array to sort
  * @size: size of array
  */
-
 void merge_sort(int *array, size_t size)
 {
 	int *left, *right, *start = array, top;
