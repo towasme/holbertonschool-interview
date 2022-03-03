@@ -35,6 +35,7 @@ avl_data_t BST_is_AVL_balanced(const binary_tree_t *tree)
 	}
 
 	left = BST_is_AVL_balanced(tree->left);
+
 	right = BST_is_AVL_balanced(tree->right);
 
 	node.height = 1 + max_int(left.height, right.height);

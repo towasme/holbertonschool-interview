@@ -95,5 +95,6 @@ void binary_tree_print(const binary_tree_t *tree)
 		printf("%s\n", s[i]);
 		free(s[i]);
 	}
+
 	free(s);
 }
